@@ -71,21 +71,24 @@ package org.example.app.solutions
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-open class Solution1 {
-    fun removeElement(nums: Array<Int>, `val`: Int): Int {
-        var writePointer  = 0
-        var readPointer = 0
+open class RemoveElement {
+    fun removeElement(nums: Array<Int>, k: Int): Int {
+        var authorPointer = 0
+        var readerPoiter = 0
         var count = 0
-        while (readPointer  < nums.size) {
-            if (nums[readPointer ] != `val`) {
-                nums[writePointer ] = nums[readPointer ]
-                writePointer ++
+        while (readerPoiter < nums.size) {
+            if (nums[readerPoiter] == k) {
+                readerPoiter++
+            } else {
+                nums[authorPointer++] = nums[readerPoiter++]
                 count++
+
             }
-            readPointer ++
         }
         return count
-
     }
+
 }
+//اینگونه مثایل رو با استفاده از Tow Pointer ها حل میکنیم  یعنی در نظر میگیریم اشاره گری به کجا نگاه میکند و
+// اشاره گری در کجا مینویسد اشاره گر خوتننده و اشاره گر نویسنده داریم
 //leetcode submit region end(Prohibit modification and deletion)
