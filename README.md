@@ -30,7 +30,7 @@ This project is designed as a dictionary of solved **LeetCode** questions. The m
 ## **How to Use**
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/username/repository-name.git
+   gh repo clone Ali-Ayoubi-Git/LeetcodeTopInterview
    ```
 2. Navigate to the project directory:  
    ```bash
@@ -79,7 +79,7 @@ If you're interested in contributing or have suggestions:
 ## **نحوه استفاده**
 1. این مخزن را کلون کنید:  
    ```bash
-   git clone https://github.com/username/repository-name.git
+   gh repo clone Ali-Ayoubi-Git/LeetcodeTopInterview
    ```
 2. وارد پوشه پروژه شوید:  
    ```bash
