@@ -30,11 +30,11 @@ This project is designed as a dictionary of solved **LeetCode** questions. The m
 ## **How to Use**
 1. Clone the repository:  
    ```bash
-   gh repo clone Ali-Ayoubi-Git/LeetcodeTopInterview
+   https://github.com/Ali-Ayoubi-Git/LeetcodeTopInterview.git
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd repository-name
+   cd LeetcodeTopInterview\app\src\main\kotlin\solutions
    ```
 3. Explore the problems and solutions to enhance your understanding of algorithms.
 
@@ -47,7 +47,7 @@ I aim to:
 ## **Contributions**
 If you're interested in contributing or have suggestions:  
 - Submit a Pull Request.  
-- Or contact me via [email](mailto:your-email@example.com).
+- Or contact me via [email](aliayoubi.kt@gmail.com).
 
 ---
 
@@ -79,11 +79,11 @@ If you're interested in contributing or have suggestions:
 ## **نحوه استفاده**
 1. این مخزن را کلون کنید:  
    ```bash
-   gh repo clone Ali-Ayoubi-Git/LeetcodeTopInterview
+   https://github.com/Ali-Ayoubi-Git/LeetcodeTopInterview.git
    ```
 2. وارد پوشه پروژه شوید:  
    ```bash
-   cd repository-name
+   cd LeetcodeTopInterview\app\src\main\kotlin\solutions
    ```
 3. سوالات و راه‌حل‌ها را مرور کرده و از آن‌ها برای تقویت دانش الگوریتمی خود استفاده کنید.
 
