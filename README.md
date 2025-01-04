@@ -1,7 +1,5 @@
 
 
----
-
 # **Top Interview 150 - LeetCode Questions and Algorithms in Kotlin**
 
 ## **Project Goal**
@@ -98,6 +96,4 @@ If you're interested in contributing or have suggestions:
 - یک Pull Request ارسال کنید.  
 - یا از طریق [ایمیل](aliayoubi.kt@gmail.com) با من تماس بگیرید.
 
----
 
-این نسخه آماده استفاده است. اگر اصلاح یا تغییری مدنظر داری، حتماً اطلاع بده! 😊
