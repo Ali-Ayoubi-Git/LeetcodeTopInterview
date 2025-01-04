@@ -35,6 +35,8 @@ This project is designed as a dictionary of solved **LeetCode** questions. The m
    cd LeetcodeTopInterview\app\src\main\kotlin\solutions
    ```
 3. Explore the problems and solutions to enhance your understanding of algorithms.
+4.  ```bash
+    https://leetcode.com/studyplan/top-interview-150/
 
 ## **Future Plans**
 I aim to:  
@@ -83,6 +85,8 @@ If you're interested in contributing or have suggestions:
    ```bash
    cd LeetcodeTopInterview\app\src\main\kotlin\solutions
    ```
+    ```bash
+    https://leetcode.com/studyplan/top-interview-150/
 3. سوالات و راه‌حل‌ها را مرور کرده و از آن‌ها برای تقویت دانش الگوریتمی خود استفاده کنید.
 
 ## **برنامه‌های آینده**
