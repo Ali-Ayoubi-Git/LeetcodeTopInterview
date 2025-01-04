@@ -85,9 +85,10 @@ If you're interested in contributing or have suggestions:
    ```bash
    cd LeetcodeTopInterview\app\src\main\kotlin\solutions
    ```
-    ```bash
-    https://leetcode.com/studyplan/top-interview-150/
+  
 3. سوالات و راه‌حل‌ها را مرور کرده و از آن‌ها برای تقویت دانش الگوریتمی خود استفاده کنید.
+4. ```bash
+    https://leetcode.com/studyplan/top-interview-150/
 
 ## **برنامه‌های آینده**
 در آینده قصد دارم:  
