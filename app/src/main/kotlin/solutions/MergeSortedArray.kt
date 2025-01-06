@@ -61,19 +61,19 @@ package org.example.app.solutions
 //leetcode submit region begin(Prohibit modification and deletion)
 class MergeSortedArray{
     fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
-        var AuthorPointer = (m + n) - 1
-        var ReaderPointerN1 = m - 1
-        var ReaderPointerN2 = n - 1
+        var authorPointer = (m + n) - 1
+        var readerPointerN1 = m - 1
+        var readerPointerN2 = n - 1
 
-        while (AuthorPointer >= 0) {
-            if (ReaderPointerN1 < 0) {
-                nums1[AuthorPointer--] = nums2[ReaderPointerN2--]
-            } else if (ReaderPointerN2 < 0) {
-                nums1[AuthorPointer--] = nums1[ReaderPointerN1--]
-            } else if (nums1[ReaderPointerN1] > nums2[ReaderPointerN2])
-                nums1[AuthorPointer--] = nums1[ReaderPointerN1--]
+        while (authorPointer >= 0) {
+            if (readerPointerN1 < 0) {
+                nums1[authorPointer--] = nums2[readerPointerN2--]
+            } else if (readerPointerN2 < 0) {
+                nums1[authorPointer--] = nums1[readerPointerN1--]
+            } else if (nums1[readerPointerN1] > nums2[readerPointerN2])
+                nums1[authorPointer--] = nums1[readerPointerN1--]
             else {
-                nums1[AuthorPointer--] = nums2[ReaderPointerN2--]
+                nums1[authorPointer--] = nums2[readerPointerN2--]
             }
         }
     }
