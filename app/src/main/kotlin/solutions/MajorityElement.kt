@@ -19,12 +19,17 @@ Output: 2 */
 class MajorityElement {
     fun majorityElement(nums: IntArray): Int {
         val map = mutableMapOf<Int, Int>()
-        val  total=nums.size/2
+        /*
+        * این قسمت تلاش می‌کند مقدار مرتبط با کلید i را از نقشه (Map) پیدا کند.
+اگر کلید i در نقشه وجود داشته باشد، مقدار متناظر آن بازگردانده می‌شود.
+اگر کلید i در نقشه وجود نداشته باشد، مقدار پیش‌فرض 0 بازگردانده می‌شود.
+* */
+        val total = nums.size / 2
 
         for (i in nums) {
-            val count = map.getOrDefault(i, 0)+1
+            val count = map.getOrDefault(i, 0) + 1
             map[i] = count
-            if (count>total)
+            if (count > total)
                 return i
 
         }
@@ -35,8 +40,23 @@ class MajorityElement {
 
 }
 
+/*
+* این تکنیک معمولاً در مسائل مرتبط با شمارش فراوانی‌ها (frequency counting)
+*  یا به‌روزرسانی مقادیر در نقشه‌ها استفاده می‌شود.*/
 
+/*
+*val numbers = listOf(1, 2, 2, 3, 3, 3)
+val map = mutableMapOf<Int, Int>()
 
+for (i in numbers) {
+    val count = map.getOrDefault(i, 0) + 1
+    map[i] = count
+}
+
+println(map) // خروجی: {1=1, 2=2, 3=3}
+
+*
+* */
 
 
 
