@@ -1,4 +1,4 @@
-package org.example.app.solutions
+package org.example.app.solutions.arrayString.easy
 
 /*
 *Given an array nums of size n, return the majority element.

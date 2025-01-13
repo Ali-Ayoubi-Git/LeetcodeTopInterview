@@ -1,4 +1,4 @@
-package org.example.app.solutions
+package org.example.app.solutions.arrayString.easy
 
 /*
 * Given a string s consisting of words and spaces, return the length of the last word in the string.
