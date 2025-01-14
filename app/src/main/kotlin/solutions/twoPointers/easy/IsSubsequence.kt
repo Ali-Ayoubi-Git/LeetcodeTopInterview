@@ -17,7 +17,39 @@ Input: s = "axc", t = "ahbgdc"
 Output: false*/
 class IsSubsequence {
     fun isSubsequence(s: String, t: String): Boolean {
+        if (s.isEmpty()) return true
+        if(s.length>t.length)return false
+        var tPointer = 0
+        var sPointer = 0
+        while (tPointer < t.length && sPointer < s.length) {
+            if (t[tPointer] == s[sPointer]) {
+                sPointer++
+            }
+            tPointer++
 
-        return true
+        }
+        // اگر اشاره گر s به انتهای رشته s رسیده باشد، یعنی تمام کاراکترهای s در t پیدا شده‌اند
+        return sPointer==s.length
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
