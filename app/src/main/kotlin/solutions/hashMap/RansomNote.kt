@@ -21,7 +21,7 @@ Input: ransomNote = "aa", magazine = "aab"
 Output: true*/
 class RansomNote {
     fun canConstruct(ransomNote: String, magazine: String): Boolean {
-        val hashMapR = mutableMapOf<Char, Int>()
+      /*  val hashMapR = mutableMapOf<Char, Int>()
         val hashMapM = mutableMapOf<Char, Int>()
         if (ransomNote.length > magazine.length) return false
         for (i in ransomNote.indices) {
@@ -44,6 +44,13 @@ class RansomNote {
             if (!hashMapM.containsKey(key) || hashMapM[key]!! < value) return false
         }
 
+        return true*/
+
+//با فیچر های  کاتلین
+        if (ransomNote.length > magazine.length) return false
+        for (i in ransomNote.toSet()) {
+            if (magazine.count { it == i } < ransomNote.count { it == i })return false
+        }
         return true
     }
 }
