@@ -33,9 +33,27 @@ Output: false*/
 
 class IsomorphicStrings {
     fun isIsomorphic(s: String, t: String): Boolean {
+        if (s.length != t.length) return false
+        val hashMapS = mutableMapOf<Char, Char>()
+        val hashMapT = mutableMapOf<Char, Char>()
+        for (i in s.indices) {
+            val charS = s[i]
+            val charT = t[i]
+            if (hashMapS.containsKey(charS)) {
+                if (hashMapS[charS] != charT) return false
+            } else {
+                hashMapS[charS] = charT
+            }
+            if (hashMapT.containsKey(charT)) {
+                if (hashMapT[charT] != charS) return false
+            } else {
+                hashMapT[charT] = charS
 
+            }
+        }
         return true
     }
+
 }
 
 
