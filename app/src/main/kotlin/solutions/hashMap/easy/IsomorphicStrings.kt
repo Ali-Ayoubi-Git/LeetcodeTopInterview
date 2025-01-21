@@ -1,4 +1,4 @@
-package org.example.app.solutions.hashMap
+package org.example.app.solutions.hashMap.easy
 
 /*
 * Given two strings s and t, determine if they are isomorphic.

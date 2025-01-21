@@ -1,4 +1,4 @@
-package org.example.app.solutions.hashMap
+package org.example.app.solutions.hashMap.easy
 
 /*
 * Given a pattern and a string s, find if s follows the same pattern.
